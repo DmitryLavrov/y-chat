@@ -2,7 +2,7 @@
   "name": "y-chat",
   "version": "1.0.0",
   "description": "Yandex Practicum Chat",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "dev": "parcel index.hbs",
     "build": "parcel build index.hbs"

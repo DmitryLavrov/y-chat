@@ -13,5 +13,11 @@ npm init -y
 
 ```shell
 $ npm i -D parcel
+$ npm i -D handlebars
 $ npm i -D @anikin/parcel-transformer-handlebars
+$ npm i -D @anikin/parcel-transformer-handlebars-precompile
+$ npm i -D pug
+$ npm i -D sass
+
+$ npm i -D express
 ```

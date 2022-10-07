@@ -1,5 +1,5 @@
-import Pug from 'pug'
-import tmpl from 'bundle-text:./login.pug'
+// import Pug from 'pug'
+import tmpl from 'bundle-text:./login.hbs'
 import './login.scss'
 
 //--------------------------

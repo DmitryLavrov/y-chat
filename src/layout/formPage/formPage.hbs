@@ -1,0 +1,26 @@
+<main>
+    <section class="form-container">
+        <div class="form-box">
+        {{#with form}}
+            <h1>{{title}}</h1>
+            <form>
+                {{#each fields}}
+                    <div>
+                        <label for={{name}}>{{label}}</label>
+                        <input id="{{name}}"
+                               type="{{type}}"
+                               name="{{name}}"
+                            {{#if placeholder}} placeholder="{{placeholder}}"{{/if}}>
+                    </div>
+                {{/each}}
+
+                {{#each buttons}}
+                    <div>
+                        {{{button}}}
+                    </div>
+                {{/each}}
+            </form>
+        {{/with}}
+    </div>
+    </section>
+</main>

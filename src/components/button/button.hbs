@@ -1,0 +1,6 @@
+{{#if isButton}}
+    <button class="button" type="{{type}}">{{label}}</button>
+{{/if}}
+{{#unless isButton}}
+    <a class="link" href="{{href}}">{{label}}</a>
+{{/unless}}

@@ -1,0 +1,25 @@
+<main>
+    <section class="profile-container">
+        <div class="profile-box">
+            {{#with profile}}
+                <h1>{{title}}</h1>
+                <profile>
+                    {{#each fields}}
+                        <div>
+                            <label>{{label}}:</label>
+                            <span>
+                                {{value}}
+                            </span>
+                        </div>
+                    {{/each}}
+
+                    {{#each buttons}}
+                        <div>
+                            {{{button}}}
+                        </div>
+                    {{/each}}
+                </profile>
+            {{/with}}
+        </div>
+    </section>
+</main>

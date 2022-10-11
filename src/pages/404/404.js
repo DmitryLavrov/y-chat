@@ -1,6 +1,10 @@
-// import Pug from 'pug'
+import {render as renderErrorPage} from '../../layout/errorPage'
+import {render as renderTestLinks} from '../../components/temporary/testLinks'
+import '../../styles/main.scss'
 
-import tmpl from 'bundle-text:./404.hbs'
-import './404.scss'
-
-document.querySelector('#root').innerHTML = tmpl;
+document.querySelector('#root').innerHTML = renderErrorPage({
+  errorPage: {
+    title: '404',
+    content: 'Non-existing page'
+  }
+}) + renderTestLinks()

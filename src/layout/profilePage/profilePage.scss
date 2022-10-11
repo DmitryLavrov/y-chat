@@ -1,0 +1,13 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-box {
+  border: solid 3px lightblue ;
+}
